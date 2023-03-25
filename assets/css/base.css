@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary-first: #8261EE;
+    --color-primary-second: #FF589E;
+    --color-header: #1E1E1E;
+    --color-text: #777;
+    --color-white: #FFFFFF;
+    --color-white-blue: #F1F1FC;
+    --color-border-form: #80bdff;
+    --color-social: #9d5bd9;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+a, a:hover {
+    color: var(--color-white);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.button {
+    font-size: 13px;
+    width: 148px;
+    border-radius: 20px;
+    background-color: var(--color-primary-first);
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+
+.button a {
+    display: inline-block;
+    padding: 8px 4px;
+}
+
+.button:hover {
+    background-color: var(--color-primary-second);
+}
+
+.inner-box .inner-content-box,
+.inner-box .inner-title {
+    text-align: center;
+}
+
+.inner-content-box .inner-head h3 {
+    font-size: 18px;
+    color: var(--color-header);
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.inner-box .inner-content-box p {
+    color: var(--color-text);
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.inner-title .inner-head h2 {
+    font-size: 28px;
+    color: var(--color-header);
+    margin-bottom: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    letter-spacing: 1.75px;
+}
+
+.inner-title .inner-desc p {
+    font-size: 16px;
+    color: var(--color-text);
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+hr {
+    margin: 0;
+}
+
