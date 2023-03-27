@@ -201,7 +201,7 @@
     transition: all .35s ease-in-out;
 }
 
-.about .box-list .inner-box .inner-image:hover {
+.about .box-list .inner-box:hover .inner-image {
     background-color: var(--color-primary-second);
 }
 
