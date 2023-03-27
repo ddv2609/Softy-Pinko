@@ -198,11 +198,11 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto 28px;
+    transition: all .35s ease-in-out;
 }
 
 .about .box-list .inner-box .inner-image:hover {
     background-color: var(--color-primary-second);
-    transition: all .5s ease-in-out;
 }
 
 .about .inner-title .inner-head h2 {
