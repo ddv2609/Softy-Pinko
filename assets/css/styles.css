@@ -201,6 +201,10 @@
     transition: all .35s ease-in-out;
 }
 
+.about .inner-box .inner-image img {
+    max-width: 100%;
+}
+
 .about .box-list .inner-box:hover .inner-image {
     background-color: var(--color-primary-second);
 }
@@ -550,7 +554,7 @@
     }
 
     .counter .inner-wrap:hover > .inner-box-counter{
-        margin-bottom: 24px;
+        margin-bottom: 32px;
     }
 }
 
